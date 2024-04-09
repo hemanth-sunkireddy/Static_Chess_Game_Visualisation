@@ -22,8 +22,7 @@
     <div class="row">
       <div class="col">
         <div class="row">
-          <div
-            style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,215,54,1) 0%, rgba(0,212,255,1) 100%);">
+          <div style="background-color: orange; opacity: 90%;">
             <p class="fs-3" style="text-align: center; color: rgb(255, 255, 255); font-weight: bold;">Moves</p>
             <div class="col">
               <div class="row" style="padding: 10%; height: 30px; width: 100%">
@@ -34,14 +33,18 @@
                   <svg viewBox="0 0 100 100 ">
                     <defs>
                       <!-- A marker to be used as an arrowhead -->
-                      <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
-                        orient="auto-start-reverse">
+                      <marker id="arrow" stroke="#47ff47" fill="#47ff47" viewBox="0 0 10 10" refX="5" refY="5"
+                        markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                         <path d="M 0 0 L 10 5 L 0 10 z" />
                       </marker>
                     </defs>
                     <!-- A line with a marker -->
-                    <line x1="10" y1="10" x2="90" y2="10" stroke="black" marker-end="url(#arrow)" />
+                    <line x1="10" y1="10" x2="90" y2="10" stroke="#47ff47" stroke-width="3.5px"
+                      marker-end="url(#arrow)" />
                   </svg>
+                  <!-- A line with a marker -->
+                  <line x1="10" y1="10" x2="90" y2="10" stroke="#47ff47" stroke-width="3.5px"
+                    marker-end="url(#arrow)" />
                 </div>
               </div>
 
@@ -55,14 +58,15 @@
                   <defs>
 
                     <!-- A marker to be used as an arrowhead -->
-                    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
-                      orient="auto-start-reverse">
+                    <marker id="arrow2" viewBox="0 0 10 10" refX="5" stroke="#AD0AFD" fill="#AD0AFD" refY="5"
+                      markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                       <path d="M 0 0 L 10 5 L 0 10 z" />
                     </marker>
                   </defs>
 
                   <!-- A line with a marker -->
-                  <line x1="10" y1="10" x2="90" y2="10" stroke="black" marker-end="url(#arrow)" />
+                  <line x1="10" y1="10" x2="90" y2="10" stroke="#AD0AFD" stroke-width="3.5px"
+                    marker-end="url(#arrow2)" />
                 </svg>
               </div>
             </div>
@@ -71,8 +75,7 @@
       </div>
       <div class="col">
         <div class="row">
-          <div
-            style="background: linear-gradient(90deg, rgb(59, 229, 29) 0%, rgb(67, 239, 159) 0%, rgba(32, 149, 173, 0.683) 100%);">
+          <div style="background-color: lightblue; opacity: 200%;">
             <p class="fs-3" style="text-align: center; color: white; font-weight: bold;">Check and Checkmate</p>
             <div class="col">
               <div class="row" style="padding: 10%; height: 30px; width: 100%">
@@ -83,13 +86,14 @@
                   <svg viewBox="0 0 100 100 ">
                     <defs>
                       <!-- A marker to be used as an arrowhead -->
-                      <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                      <marker id="arrow3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
                         orient="auto-start-reverse">
                         <path d="M 0 0 L 10 5 L 0 10 z" />
                       </marker>
                     </defs>
                     <!-- A line with a marker -->
-                    <line x1="10" y1="10" x2="90" y2="10" stroke="black" marker-end="url(#arrow)" />
+                    <line x1="10" y1="10" x2="90" y2="10" stroke="red" stroke-dasharray="10, 10, 10"
+                      stroke-width="10.5px" />
                   </svg>
                 </div>
               </div>
@@ -111,7 +115,7 @@
                   </defs>
 
                   <!-- A line with a marker -->
-                  <line x1="10" y1="10" x2="90" y2="10" stroke="black" marker-end="url(#arrow)" />
+                  <line x1="10" y1="10" x2="90" y2="10" stroke="red" stroke-width="10.5px" />
                 </svg>
               </div>
             </div>
@@ -120,8 +124,7 @@
       </div>
       <div class="col">
         <div class="row">
-          <div
-            style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,215,54,1) 0%, rgba(0,212,255,1) 100%);">
+          <div style="background-color: orange; opacity: 90%;">
             <p class="fs-3" style="text-align: center; color: white; font-weight: bold">Kill</p>
             <div class="col">
               <div class="row" style="padding: 10%; height: 30px; width: 100%">
@@ -138,7 +141,7 @@
                       </marker>
                     </defs>
                     <!-- A line with a marker -->
-                    <line x1="10" y1="10" x2="90" y2="10" stroke="black" marker-end="url(#arrow)" />
+                    <circle r="10" cx="20" cy="20" fill="none" stroke-width="5px" stroke="yellow"></circle>
                   </svg>
                 </div>
               </div>
@@ -165,8 +168,8 @@
   <div style="background-color: rgb(249, 137, 57);">
     <div class="container" style="margin-top: 0px;">
       <div style="padding-top: 20px">
-        <h3 style="text-align: center; color: white; font-weight: bold;">Game 1: Final Movements of Game - CheckMate
-          Game</h3>
+        <h3 style="text-align: center; color: white; font-weight: bold;">Game 1: CheckMate movements of Game - End Game
+        </h3>
       </div>
 
     </div>
@@ -445,26 +448,70 @@
       <p class="fs-3" style="text-align: center; color: white; font-weight: bold;"> Explanation: </p>
     </div>
     <div style="background-color: bisque;">
-      <p>1. Finally White Player is the winner as they are no positional movement for the Black Player.</p>
-      <p>2. Inital positions of the Players: </p>
-      <p>White: Queen - G5</p>
-      <p>Rook - RA2</p>
-      <p> King - A8</p>
-      <p>Knight - H2</p>
-      <p>Camel - B5</p>
-      <p>Rook - RF4</p>
-      <p>Black: King - E1</p>
-      <p>Camel - B8</p>
-      <p>Soldiers - D5 and E7</p>
-      <p>3. Movements: </p>
-      <p> First White Queen moves to the H4 then Check</p>
-      <p>Next, Black king responds and the only possible move is D1.</p>
-      <p>Next, White player moves camel (B5) to the A4 position. then Check.</p>
-      <p>Responding to the white player, the only possible way is c1. </p>
-      <p>Third move of the white player is the Rook (RF4) to F1, then Checkmate.</p>
-      <p> White wins. </p>
+      <div class="container" style="padding: 8%;">
+        <table class="table table-head border border-5 border-dark">
+          <thead>
+            <tr style="font-weight: bold; font-size: 140%;">
+              <th scope="col">#</th>
+              <th scope="col">Piece</th>
+              <th scope="col">Move</th>
+              <th scope="col">Result</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody style="font-size: 110%">
+            <tr style="background-color: white">
+              <th scope="row">1</th>
+              <td>Queen: G5</td>
+              <td> G5 --&gt H4</td>
+              <td>Check</td>
+              <td>White Queen to Black King Check by diagonally</td>
+            </tr>
+            <tr style="background-color: gainsboro">
+              <th scope="row">2</th>
+              <td>King: E1</td>
+              <td> E1 ---&gt D1</td>
+              <td>Escapes from Check</td>
+              <td>Black King's only possible move</td>
+            </tr>
+            <tr style="background-color: white;">
+              <th scope="row">3</th>
+              <td>Camel: B5</td>
+              <td>B5 --&gt A4</td>
+              <td>Check</td>
+              <td>White Camel Check to the Black King</td>
+            </tr>
+            <tr style="background-color: gainsboro;">
+              <th scope="row">4</th>
+              <td>King: D1</td>
+              <td>D1 --&gt C1</td>
+              <td>Escapes from Check</td>
+              <td>Black King only possible move</td>
+            </tr>
+            <tr style="background-color: white;">
+              <th scope="row">5</th>
+              <td>Rook: F4</td>
+              <td>F4 -- &gt F1</td>
+              <td>CheckMate</td>
+              <td>White Wins</td>
+            </tr>
+            <tr style="background-color: gainsboro;">
+              <th scope="row">6</th>
+              <td>King: C1</td>
+              <td>No Move </td>
+              <td>White Wins</td>
+              <td>White Player Wins</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
+  <hr>
+  <p style="text-align: center; font-weight: bold;">Team: 2022101005 , 2022101002, 2022101044</p>
+  <br>
+  <p style="text-align: center; font-weight: bold;"> Code: <a
+      href="https://github.com/hemanth-sunkireddy/Static_Chess_Game_Visualisation">Code Link</a> </p>
 </body>
 <script>
 

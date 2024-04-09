@@ -1,0 +1,2 @@
+# Static_Chess_Game_Visualisation
+Data Visualisation Assignment

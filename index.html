@@ -176,26 +176,113 @@
     <div class="dad-container" style="background-color: bisque">
       <div class="row" style="margin-top: 4%; margin-left: 5%; margin-bottom:  3%">
         <div class="col">
-          <div class="main-container">
+          <div class="main-container" style="position: relative">
+            <!-- Add SVG overlay for all squares -->
+            <!-- White Rook third Move  -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <defs>
+
+                <!-- A marker to be used as an arrowhead -->
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+              </defs>
+
+              <!-- A line with a marker -->
+              <line x1="60.5" y1="20.5" x2="60.5" y2="47.5" stroke="red" stroke-width="1.5px" />
+            </svg>
+            <!-- <First Move of the King -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <defs>
+
+                <!-- A marker to be used as an arrowhead -->
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+              </defs>
+
+              <!-- A line with a marker -->
+              <line x1="50.5" y1="18.5" x2="40.5" y2="18.5" stroke="red" stroke-width="1.5px" />
+            </svg>
+            <!-- Second Move of the King  -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <defs>
+
+                <!-- A marker to be used as an arrowhead -->
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+              </defs>
+
+              <!-- A line with a marker -->
+              <line x1="37.5" y1="18.5" x2="28.5" y2="18.5" stroke="red" stroke-width="1.5px" />
+            </svg>
+
+            <!-- White Queen Check Move  -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <defs>
+
+                <!-- A marker to be used as an arrowhead -->
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+              </defs>
+
+              <!-- A line with a marker -->
+              <line x1="48.5" y1="17.5" x2="80.5" y2="47.5" stroke="red" stroke-width="1.5px" />
+            </svg>
+
+            <!-- White Camel Move  -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <defs>
+
+                <!-- A marker to be used as an arrowhead -->
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+              </defs>
+
+              <!-- A line with a marker -->
+              <line x1="39" y1="17.5" x2="7.5" y2="47.5" stroke="red" stroke-width="1.5px" />
+            </svg>
+
+             <!-- White Camel Move  -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <defs>
+
+                <!-- A marker to be used as an arrowhead -->
+                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
+                  orient="auto-start-reverse">
+                  <path d="M 0 0 L 10 5 L 0 10 z" />
+                </marker>
+              </defs>
+
+              <!-- A line with a marker -->
+              <line x1="12" y1="58.5" x2="7.5" y2="47.5" stroke="red" stroke-width="1.5px" />
+            </svg>
+
+            <!-- Add SVG overlay for all squares -->
             <div class="file-a files">
               <div class="square" style="background-color: lightblue;">
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">1</p>
               </div>
               <div class="square top-bold left-bold">
-                <img src="./images/pieces/black/rook.png" alt="" />
               </div>
               <div class="square left-bold">
-                <img src="./images/pieces/black/pawn.png" alt="" />
+                <img src="./images/pieces/white/rook.png">
               </div>
               <div class="square left-bold"></div>
               <div class="square left-bold"></div>
               <div class="square left-bold"></div>
               <div class="square left-bold"></div>
               <div class="square left-bold">
-                <img src="./images/pieces/white/pawn.png" alt="" />
               </div>
               <div class="square bottom-bold left-bold">
-                <img src="./images/pieces/white/rook.png" alt="" />
               </div>
             </div>
             <div class="file-b files">
@@ -203,20 +290,18 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">2</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/knight.png" alt="" />
               </div>
               <div class="square">
-                <img src="./images/pieces/black/pawn.png" alt="" />
               </div>
               <div class="square"></div>
               <div class="square"></div>
-              <div class="square"></div>
+              <div class="square">
+                <img src="./images/pieces/white/bishop.png">
+              </div>
               <div class="square"></div>
               <div class="square">
-                <img src="./images/pieces/white/pawn.png" alt="" />
               </div>
               <div class="square bottom-bold">
-                <img src="./images/pieces/white/knight.png" alt="" />
               </div>
             </div>
             <div class="file-c files">
@@ -224,10 +309,8 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">3</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/bishop.png" alt="" />
               </div>
               <div class="square">
-                <img src="./images/pieces/black/pawn.png" alt="" />
               </div>
               <div class="square"></div>
               <div class="square"></div>
@@ -237,7 +320,6 @@
                 <img src="./images/pieces/white/pawn.png" alt="" />
               </div>
               <div class="square bottom-bold">
-                <img src="./images/pieces/white/bishop.png" alt="" />
               </div>
             </div>
             <div class="file-d files">
@@ -245,20 +327,16 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">4</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/queen.png" alt="" />
               </div>
               <div class="square">
-                <img src="./images/pieces/black/pawn.png" alt="" />
               </div>
               <div class="square"></div>
               <div class="square"></div>
               <div class="square"></div>
               <div class="square"></div>
               <div class="square">
-                <img src="./images/pieces/white/pawn.png" alt="" />
               </div>
               <div class="square bottom-bold">
-                <img src="./images/pieces/white/queen.png" alt="" />
               </div>
             </div>
             <div class="file-e files">
@@ -266,17 +344,18 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">5</p>
               </div>
               <div class="square top-bold">
+                <!-- King piece -->
                 <img src="./images/pieces/black/king.png" alt="" />
+                <!-- SVG overlay for the square box -->
               </div>
+
               <div class="square">
-                <img src="./images/pieces/black/pawn.png" alt="" />
               </div>
               <div class="square"></div>
               <div class="square"></div>
               <div class="square"></div>
               <div class="square"></div>
               <div class="square">
-                <img src="./images/pieces/white/pawn.png" alt="" />
               </div>
               <div class="square bottom-bold">
                 <img src="./images/pieces/white/king.png" alt="" />
@@ -287,20 +366,18 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">6</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/bishop.png" alt="" />
               </div>
               <div class="square">
-                <img src="./images/pieces/black/pawn.png" alt="" />
+              </div>
+              <div class="square"></div>
+              <div class="square">
+                <img src="./images/pieces/white/rook.png">
               </div>
               <div class="square"></div>
               <div class="square"></div>
-              <div class="square"></div>
-              <div class="square"></div>
               <div class="square">
-                <img src="./images/pieces/white/pawn.png" alt="" />
               </div>
               <div class="square bottom-bold">
-                <img src="./images/pieces/white/bishop.png" alt="" />
               </div>
             </div>
             <div class="file-g files">
@@ -308,14 +385,14 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">7</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/knight.png" alt="" />
               </div>
               <div class="square">
-                <img src="./images/pieces/black/pawn.png" alt="" />
               </div>
               <div class="square"></div>
               <div class="square"></div>
-              <div class="square"></div>
+              <div class="square">
+                <img src="./images/pieces/white/queen.png">
+              </div>
               <div class="square"></div>
               <div class="square">
                 <img src="./images/pieces/white/pawn.png" alt="" />
@@ -329,7 +406,6 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">8</p>
               </div>
               <div class="square top-bold right-bold">
-                <img src="./images/pieces/black/rook.png  " alt="" />
               </div>
               <div class="square right-bold">
                 <img src="./images/pieces/black/pawn.png" alt="" />

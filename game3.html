@@ -80,20 +80,17 @@
             <div class="col">
               <div class="row" style="padding: 10%; height: 30px; width: 100%">
                 <div class="col">
-                  <p style="margin-right: 10px; color: white; font-weight: bold;">Check</p>
+                  <p style="margin-right: 10px; color: white; font-weight: bold;">CheckMate</p>
                 </div>
                 <div class="col">
-                  <svg viewBox="0 0 100 100 ">
-                    <defs>
-                      <!-- A marker to be used as an arrowhead -->
-                      <marker id="arrow3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
-                        orient="auto-start-reverse">
-                        <path d="M 0 0 L 10 5 L 0 10 z" />
-                      </marker>
-                    </defs>
-                    <!-- A line with a marker -->
-                    <line x1="10" y1="10" x2="90" y2="10" stroke="red" stroke-dasharray="10, 10, 10"
-                      stroke-width="10.5px" />
+                  <!-- Check Mate Move -->
+                  <svg viewBox="0 0 100 100">
+                    <rect width="40" height="40" x="10" y="10" fill="red" />
+                  </svg>
+                </div>
+                <div class="col">
+                  <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="20" r="15" stroke="red" fill="none" stroke-width="8px" />
                   </svg>
                 </div>
               </div>
@@ -177,6 +174,11 @@
       <div class="row" style="margin-top: 4%; margin-left: 5%; margin-bottom:  3%">
         <div class="col">
           <div class="main-container" style="position: relative">
+            <!-- Check Mate Move -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <circle cx="61" cy="17.5" r="4.5" fill="none" stroke-width="1" stroke="red" />
+            </svg>
+
             <!-- Adding Numbers to the moves  -->
             <svg viewBox="0 0 100 100" style="position: absolute">
               <!-- Text for move number -->
@@ -209,12 +211,14 @@
                 </marker>
               </defs>
               <!-- A line with a marker -->
-              <line x1="75.5" y1="61.5" x2="80.5" y2="55.5" stroke="#47ff47" stroke-width="1.5px" marker-end="url(#arrow-white)"/>
+              <line x1="75.5" y1="61.5" x2="80.5" y2="55.5" stroke="#47ff47" stroke-width="1.5px"
+                marker-end="url(#arrow-white)" />
             </svg>
 
             <!-- White Rook Third Move  -->
             <svg viewBox="0 0 100 100" style="position: absolute">
-              <line x1="60.5" y1="24.5" x2="60.5" y2="47.5" stroke="#47ff47" stroke-width="1.5px" marker-start="url(#arrow-white)"/>
+              <line x1="60.5" y1="24.5" x2="60.5" y2="47.5" stroke="#47ff47" stroke-width="1.5px"
+                marker-start="url(#arrow-white)" />
             </svg>
 
             <!-- <First Move of the King -->
@@ -226,12 +230,14 @@
                   <path d="M 0 0 L 10 5 L 0 10 z" />
                 </marker>
               </defs>
-              <line x1="50.5" y1="18.5" x2="44.5" y2="18.5" stroke="#AD0AFD" stroke-width="1.5px" marker-end="url(#arrow-black)"/>
+              <line x1="50.5" y1="18.5" x2="44.5" y2="18.5" stroke="#AD0AFD" stroke-width="1.5px"
+                marker-end="url(#arrow-black)" />
             </svg>
 
             <!-- Second Move of the King  -->
             <svg viewBox="0 0 100 100" style="position: absolute">
-              <line x1="41" y1="18.5" x2="35.5" y2="18.5" stroke="#AD0AFD" stroke-width="1.5px" marker-end="url(#arrow-black)"/>
+              <line x1="41" y1="18.5" x2="35.5" y2="18.5" stroke="#AD0AFD" stroke-width="1.5px"
+                marker-end="url(#arrow-black)" />
             </svg>
 
             <!-- White Queen Check Move  -->
@@ -248,7 +254,8 @@
 
             <!-- White Camel Move  -->
             <svg viewBox="0 0 100 100" style="position: absolute">
-              <line x1="14" y1="58.5" x2="9" y2="55.5" stroke="#47ff47" stroke-width="1.5px" marker-end="url(#arrow-white)"/>
+              <line x1="14" y1="58.5" x2="9" y2="55.5" stroke="#47ff47" stroke-width="1.5px"
+                marker-end="url(#arrow-white)" />
             </svg>
 
             <!-- Add SVG overlay for all squares -->
@@ -296,7 +303,7 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">3</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/king.png">
+                <img src="./images/pieces/black/king.png" style="background-color: red;">
               </div>
               <div class="square">
               </div>
@@ -499,7 +506,7 @@
               <div class="col">
                 <img src="../images/pieces/white/bishop.png" alt="" />
               </div>
-               <div class="col">
+              <div class="col">
                 <img src="../images/pieces/black/bishop.png" alt="" />
               </div>
               <div class="col">

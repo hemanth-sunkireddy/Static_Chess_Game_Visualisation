@@ -80,28 +80,26 @@
             <div class="col">
               <div class="row" style="padding: 10%; height: 30px; width: 100%">
                 <div class="col">
-                  <p style="margin-right: 10px; color: white; font-weight: bold;">Check</p>
+                  <p style="margin-right: 10px; color: white; font-weight: bold;">CheckMate</p>
                 </div>
                 <div class="col">
-                  <svg viewBox="0 0 100 100 ">
-                    <defs>
-                      <!-- A marker to be used as an arrowhead -->
-                      <marker id="arrow3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6"
-                        orient="auto-start-reverse">
-                        <path d="M 0 0 L 10 5 L 0 10 z" />
-                      </marker>
-                    </defs>
-                    <!-- A line with a marker -->
-                    <line x1="10" y1="10" x2="90" y2="10" stroke="red" stroke-dasharray="10, 10, 10"
-                      stroke-width="10.5px" />
+                  <!-- Check Mate Move -->
+                  <svg viewBox="0 0 100 100">
+                    <rect width="40" height="40" x="10" y="10" fill="red" />
+                  </svg>
+                </div>
+                <div class="col">
+                  <svg viewBox="0 0 100 100">
+                    <circle cx="50" cy="20" r="15" stroke="red" fill="none" stroke-width="8px" />
                   </svg>
                 </div>
               </div>
 
             </div>
+
             <div class="row" style="padding: 10%; height: 30px; width: 100%;">
               <div class="col" style="height: 50px">
-                <p style="margin-right: 10px; color: white; font-weight: bold; ">CheckMate</p>
+                <p style="margin-right: 10px; color: white; font-weight: bold; ">Check</p>
               </div>
               <div class="col">
                 <svg viewBox="0 0 100 100">
@@ -212,6 +210,11 @@
               <image href="./images/pieces/white/queen.png" x="56" y="24" width="10" height="10" opacity="90%" />
             </svg>
             <!-- Add SVG overlay for all squares -->
+
+            <!-- Check Mate Move -->
+            <svg viewBox="0 0 100 100" style="position: absolute">
+              <circle cx="61" cy="28" r="4.5" fill="none" stroke-width="1" stroke="red"/>
+            </svg>
 
             <!-- White Soldier Move  -->
             <svg viewBox="0 0 100 100" style="position: absolute">
@@ -367,7 +370,7 @@
                 <p style="font-size: 300%; justify-content: center; align-items: center; margin-left: 20px;">5</p>
               </div>
               <div class="square top-bold">
-                <img src="./images/pieces/black/king.png" alt="" />
+                <img src="./images/pieces/black/king.png" alt="" style="background-color: red;" />
               </div>
               <div class="square">
                 <img src="./images/pieces/black/pawn.png" alt="" />

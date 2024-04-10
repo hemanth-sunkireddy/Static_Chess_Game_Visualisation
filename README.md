@@ -5,6 +5,29 @@
 ```
 https://static-chess-visualisation.netlify.app/
 ```
+
+## Visualisations: 
+### Legend 
+![Legend](images/representation.png)
+
+--- 
+
+### Game 1
+![Game 1](images/game1.png)
+![Game 1 Explanation](images/game1-explanation.png)
+
+---
+
+### Game 2
+![Game 2](images/game2.png)
+![Game 2 Explanation](images/game2-explanation.png)
+
+---
+
+### Game 3
+![Game 3](images/game3.png)
+![Game 3 Explanation](images/game3-explanation.png)
+
 ### Contribution or Run Locally: 
 1. Clone the Repository
 2. cd into the folder

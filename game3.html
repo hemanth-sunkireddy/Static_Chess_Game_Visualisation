@@ -155,9 +155,9 @@
     <div class="row align-items-center">
       <div class="col-lg-6 col-md-4 col-12">
         <p class="fw-bold">Choose Game</p>
-        <p>Game 1 &nbsp;&nbsp; &nbsp;&nbsp; Game 2&nbsp;&nbsp; &nbsp;&nbsp; Game 3
+        <p>Game 1 &nbsp;&nbsp; &nbsp;&nbsp; Game 2&nbsp;&nbsp; &nbsp;&nbsp; Game 3&nbsp;&nbsp; &nbsp;&nbsp; Custom Game
           <br>
-          <input type="range" min="1" max="3" value="3" class="slider" id="slider" style="width: 35%;" />
+          <input type="range" min="1" max="4" value="3" class="slider" id="slider" style="width: 50%;" />
       </div>
     </div>
   </div>
@@ -600,6 +600,10 @@
       } else if (gameValue == 1) {
         window.location.href = "index.html";
         console.log("3");
+      }
+      else if (gameValue == 4){
+        window.location.href = "custom-game.html";
+        console.log("4");
       }
     }
     updateGame();
